@@ -1,0 +1,19 @@
+server:
+  port: 3800
+  servlet:
+    context-path: /
+
+spring:
+  datasource:
+    platform: mysql
+    url: jdbc:mysql://localhost:3306/estudiantes
+    username: root
+    password: Linsy2014
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+
